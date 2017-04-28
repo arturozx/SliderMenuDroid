@@ -10,7 +10,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/TopContainer"
         android:background="@android:color/holo_orange_dark"
         android:orientation="vertical"
@@ -23,5 +23,5 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btnMenu" />
-    </LinearLayout>
+    </RelativeLayout>
 </RelativeLayout>

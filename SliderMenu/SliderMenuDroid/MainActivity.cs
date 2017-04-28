@@ -12,7 +12,7 @@ namespace SliderMenuDroid
 	{
 		private bool isOpen, isAllowed, isEnough;
 		private LinearLayout llBackMenu;
-		private LinearLayout llTopContainer;
+		private RelativeLayout llTopContainer;
 		private Button btnMenu;
 		private float initX, finalX, maxXOpened, minXOpened = 0;
 		private const float limit = 60;
@@ -51,7 +51,7 @@ namespace SliderMenuDroid
 
 		private void InitLocalVarables()
 		{
-			llTopContainer = FindViewById<LinearLayout>(Resource.Id.TopContainer);
+			llTopContainer = FindViewById<RelativeLayout>(Resource.Id.TopContainer);
 			llBackMenu = FindViewById<LinearLayout>(Resource.Id.BackMenu);
 			btnMenu = FindViewById<Button>(Resource.Id.btnMenu);
 		}
